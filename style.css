@@ -1,0 +1,93 @@
+/* Basic Reset */
+body, h2, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Form Container Styles */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Header Styles */
+.form-header {
+    display: flex;
+    background: #007bff;
+    color: white;
+}
+
+/* Tab Button Styles */
+.tab-btn {
+    flex: 1;
+    padding: 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab-btn.active {
+    background: #0056b3;
+}
+
+/* Form Content Styles */
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Form Styles */
+.form {
+    display: none;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #0056b3;
+}
